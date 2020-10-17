@@ -6,6 +6,7 @@ body{
     position: sticky;
     margin: 0px 200px;
     font-family: 'Roboto', sans-serif;
+    padding-top: 200px;
 }
 .login-form{
     background-color: white;
@@ -13,7 +14,9 @@ body{
     border: solid 2px black;
     margin: 70px -100px 0px 700px;
     padding: 10px;
-    text-align: center
+    text-align: center;
+    margin-top: -300px;
+    animation: fadein 2s;
 }
 .login-form>form>input{
     width: 95%;
@@ -60,4 +63,46 @@ body{
 .alternative_login2>a{
     text-decoration: none;
     padding: 5px 60px;
+}
+.welcome{
+    background-color: rgb(202, 185, 185, 0.5);
+    color:white;
+    margin-right: 400px;
+    animation: fadein2 1s;
+    
+}
+.welcome>button{
+    margin-left: 260px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.welcome>button>a{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+}
+.welcome>button>a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+        margin: 70px -100px 0px 700px;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadein2 {
+    from{
+        margin-left: -200px;
+        margin-right: 600px;
+    }
+    to{
+
+    }
 }
