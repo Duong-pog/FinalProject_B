@@ -18,9 +18,7 @@
   body::-webkit-scrollbar {
     width: 4px;
   }
-  nav::-webkit-scrollbar{
-    width: 0px;
-  }
+  
   body::-webkit-scrollbar-track {
     background: #1e1e24;
   }
@@ -28,7 +26,9 @@
   body::-webkit-scrollbar-thumb {
     background: #6649b8;
   }
-  
+  nav::-webkit-scrollbar{
+    width: 0px;
+  }
   main {
     margin-left: 80px;
     padding: 16px;

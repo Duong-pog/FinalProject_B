@@ -1,0 +1,20 @@
+.choice{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(210, 210, 210);
+    
+}
+.choice>a{
+    color: rgb(103, 95, 95);
+    text-decoration: none;
+    padding: 10px 145px;
+}
+.choice>a:hover{
+    border-bottom: 3px solid rgb(57,59,61,0.5);
+}
+.notifications_display{
+    text-align: center;
+}
+.selected{
+    border-bottom: 3px solid rgb(57,59,61);
+}

@@ -8,6 +8,17 @@ body{
     font-family: 'Roboto', sans-serif;
     padding-top: 200px;
 }
+body::-webkit-scrollbar {
+    width: 4px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
 .login-form{
     background-color: white;
     border-radius: 5px;
@@ -33,6 +44,7 @@ body{
     font-size: 25px;
     border-radius: 10px;
     margin-bottom: 10px;
+    
 }
 .login-form>button.login>a{
     color: white;
@@ -50,15 +62,20 @@ body{
     background-color: rgb(181, 173, 230);
     border-radius: 5px;
     margin-bottom: 10px;
+    border:none;
+    padding: 5px;
 }
 .alternative_login1>a{
     text-decoration: none;
     padding: 5px 60px;
+   
 }
 .alternative_login2{
     width: 200px;
     background-color: rgb(241, 67, 67);
     border-radius: 5px;
+    border:none;
+    padding: 5px;
 }
 .alternative_login2>a{
     text-decoration: none;
@@ -75,6 +92,7 @@ body{
     margin-left: 260px;
     padding: 10px;
     border-radius: 7px;
+    border:none;
 }
 .welcome>button>a{
     text-decoration: none;
