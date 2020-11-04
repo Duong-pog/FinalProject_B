@@ -1,0 +1,91 @@
+form{
+    background-color: rgb(255,255,255);
+    margin: 0px 300px;
+    display: block;
+    margin-top: 0em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    box-sizing: border-box;
+    text-rendering: auto;
+    padding: 15px;
+}
+body{
+    background-color: rgb(242,244,245);
+}
+.input-field{
+    margin-top: 6px;
+    line-height: 1.4em;
+    box-shadow: none;
+    background-color: hsla(0,0%,100%,.9);
+    border-color: rgba(57,59,61,.2);
+    color: #606162;
+    border-radius: 8px;
+    font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    text-rendering: auto;
+    font-weight: 400;
+    font-size: 16px;
+    height: 38px;
+    padding: 5px 12px;
+    display: block;
+    width: 100%;
+    background-image: none;
+    border: 1px solid #b8b8b8;
+    padding: 5px 12px;
+    
+}
+.label{
+    display: block;
+    color: #b8b8b8;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+}
+.device-select{
+    border-radius: 3px;
+    margin: 0;
+    min-width: 105px;
+    width: 100%;
+    height: 38px;
+    padding: 0 8px;
+    line-height: 18px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCI+PHBhdGggZmlsbD0iIzE5MTkxOSIgZD0iTTE0IDE5Yy0uMyAwLS41LS4xLS43LS4zbC04LThjLS40LS40LS40LTEgMC0xLjRzMS0uNCAxLjQgMGw3LjMgNy4zIDcuMy03LjNjLjQtLjQgMS0uNCAxLjQgMHMuNCAxIDAgMS40bC04IDhjLS4yLjItLjQuMy0uNy4zeiIvPjwvc3ZnPg==) no-repeat scroll 98% 3px #fff;
+}
+.hidden{
+    display: none!important;
+    visibility: hidden!important;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+textarea{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+    display: block;
+    width: 100%;
+}
