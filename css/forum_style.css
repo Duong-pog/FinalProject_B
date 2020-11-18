@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+}
+table{
+    width: 100%;
+}
+
+th.threats{
+    border-bottom: rgb(95,178,115) 3px solid;
+}
+th{
+    border-bottom: rgb(141,141,141) 3px solid;
+}
+.threat{
+    border-bottom: rgb(246, 238, 238) 2px solid;
+}
+.threat:hover{
+    border-bottom: rgb(41, 39, 39) 2px solid;
+}

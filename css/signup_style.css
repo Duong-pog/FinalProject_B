@@ -297,4 +297,7 @@ body::-webkit-scrollbar-thumb {
     opacity: 1;
   }
 }
+.checkCase{
+  text-align: center;
+}
 
